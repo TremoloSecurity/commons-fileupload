@@ -297,13 +297,13 @@
           <tarLongFileMode>gnu</tarLongFileMode>
         </configuration>
       </plugin>
-      <plugin>
+      <!-- <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <preparationGoals>clean site verify</preparationGoals>
           <goals>clean site deploy</goals>
         </configuration>
-      </plugin>
+      </plugin> -->
     </plugins>
     <pluginManagement>
       <plugins>
